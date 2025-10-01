@@ -1,0 +1,10 @@
+Bundle-Name: library-api
+Bundle-SymbolicName: com.library.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.library.exception,\
+	com.library.model,\
+	com.library.service,\
+	com.library.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../library-service/service.xml

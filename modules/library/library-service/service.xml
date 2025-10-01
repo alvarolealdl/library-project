@@ -1,0 +1,16 @@
+<service-builder package-path="com.library">
+    <namespace>Library</namespace>
+
+    <entity name="Author" local-service="true" remote-service="true">
+        <column name="authorId" type="long" primary="true" />
+        <column name="name" type="String" />
+        <column name="nationality" type="String" />
+    </entity>
+
+    <entity name="Book" local-service="true" remote-service="true">
+        <column name="bookId" type="long" primary="true" />
+        <column name="title" type="String" />
+        <column name="publicationYear" type="int" />
+        <column name="authorId" type="long" />
+    </entity>
+</service-builder>
