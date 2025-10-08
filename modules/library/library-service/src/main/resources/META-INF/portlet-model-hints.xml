@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.library.model.Author">
+		<field name="uuid" type="String" />
+		<field name="authorId" type="long" />
+		<field name="name" type="String" />
+		<field name="nationality" type="String" />
+	</model>
+	<model name="com.library.model.Book">
+		<field name="uuid" type="String" />
+		<field name="bookId" type="long" />
+		<field name="title" type="String" />
+		<field name="publicationYear" type="int" />
+		<field name="authorId" type="long" />
+	</model>
+</model-hints>

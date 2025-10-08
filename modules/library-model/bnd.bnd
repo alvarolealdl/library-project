@@ -1,0 +1,8 @@
+Bundle-Name: library-model
+Bundle-SymbolicName: com.library.model
+Bundle-Version: 1.0.0
+
+Export-Package: \
+    com.library.model, \
+    com.library.exception
+Import-Package: *
